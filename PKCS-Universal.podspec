@@ -8,5 +8,6 @@ Pod::Spec.new do |s|
   s.description  = 'Helper which allows to remove boiler plate code when developing applications which requiere PKCS encryption, decryption and RSA key generation.'
   s.author       = { 'Michael Hohl' => 'me@michaelhohl.net' }
   s.source       = { :git => 'https://github.com/hohl/PKCS-Universal.git', :tag => 'pod-1.0.2' }
+  s.library      = 'libcommonCrypto'
   s.source_files = 'Classes/'
 end
